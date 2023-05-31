@@ -5,11 +5,7 @@ import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 
-interface Props {
-  children: React.ReactNode;
-}
-
-const MainApp = ({children}: Props) => {
+const MainApp = () => {
   return (
     <>
     <Navbar />
