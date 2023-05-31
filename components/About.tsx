@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
-import Image from 'next/image'
-import React from 'react'
+import Image from 'next/image';
+import React from 'react';
+import profileImg from "../public/assets/profile.png"
 
 const About = () => {
   return (
@@ -18,7 +19,7 @@ const About = () => {
           </p>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center mt-8'>
-          <Image src="/../public/assets/profile.png" alt="Julio" width={360} height={360} className='rounded-xl'/>
+          <Image src={profileImg} alt="Julio" width={330} height={330} className='rounded-xl'/>
         </div>
       </div>
     </section>
