@@ -1,16 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  i18n: {
-    /**
-     * Provide the locales you want to support in your application
-     */
-    locales: ["en-US", "es-ES"],
-    /**
-     * This is the default locale you want to be used when visiting
-     * a non-locale prefixed path.
-     */
-    defaultLocale: "en-US",
-  },
-}
-
-module.exports = nextConfig
+const withNextIntl = require('next-intl/plugin')(
+  // This is the default (also the `src` folder is supported out of the box)
+  './i18n.ts'
+);
+ 
+module.exports = withNextIntl({
+  // Other Next.js configuration ...
+  experimental: {appDir: true}
+});

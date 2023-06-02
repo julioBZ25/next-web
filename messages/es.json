@@ -1,0 +1,56 @@
+{
+  "Lang": {
+    "Navbar": {
+      "Menu": {
+        "About": "Acerca de",
+        "Skills": "Aptitudes",
+        "Projects": "Proyectos"
+      },
+      "Contact": "Trabaja conmigo"
+    },
+    "Main": {
+      "Intro": "Construyamos algo juntos",
+      "Span": "Hola, soy Julio",
+      "Body": "un desarrollador web Front-End",
+      "Button": "Mira mis proyectos"
+    },
+    "About": {
+      "About": "Acerca de",
+      "Title": "Quién soy",
+      "Subtitle": "Un autoproclamado desarrollador Front-End",
+      "Body": "¡Hola! Soy Ingeniero Electrónico y desarrollador de software con experiencia en diseño, desarrollo y pruebas de sistemas de software. Capaz de autogestionarse de manera efectiva durante proyectos independientes, así como colaborar como parte de un equipo multifuncional. Con experiencia en tecnologías frontend como HTML, CSS/SCSS, JS/TS, React.js y Angular. Además, conocimientos en tecnologías backend como Ruby y Ruby on Rails."
+    },
+    "Skills": {
+      "Title": "Aptitudes",
+      "Subtitle": "Qué puedo hacer"
+    },
+    "Projects": {
+      "Title": "Proyectos",
+      "Subtitle": "Qué he construido",
+      "Descriptions": {
+        "Eatable": "Una aplicación web para diferentes platos de comida.",
+        "Tweetable": "Una aplicación web básica similar a Twitter.",
+        "Doable": "Una mejorada aplicación web de listas de tareas.",
+        "Expensable": "Aplicación web de gestión de gastos e ingresos."
+      },
+      "Button": "Mira el proyecto"
+    },
+    "Contact": {
+      "Title": "Contacto",
+      "Subtitle": "Ponte en contacto",
+      "Card": {
+        "Title": "Desarrolador Front-End",
+        "Description": "Estoy disponible para trabajar como freelance o a tiempo completo. Ponte en contacto conmigo y hablemos.",
+        "Span": "Conecta Conmigo"
+      },
+      "Form": {
+        "Name": "Nombre",
+        "Phone": "Número de Celular",
+        "Email": "Correo",
+        "Subject": "Asunto",
+        "Message": "Mensaje",
+        "Button": "Enviar Mensaje"
+      }
+    }
+  }
+}

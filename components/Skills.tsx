@@ -8,12 +8,19 @@ import nextLogo from '../public/assets/skills/nextjs.png';
 import githubLogo from '../public/assets/skills/github1.png';
 import SkillCard from './SkillCard';
 
-const Skills = () => {
+type Props = {
+  messages: {
+    Title: string,
+    Subtitle: string
+  }
+}
+
+const Skills = ({messages}: Props) => {
   return (
-    <div id='skills' className='w-full px-4 pt-20 sm:pt-32 mt-4'>
+    <section id='skills' className='w-full px-4 pt-20 sm:pt-32 mt-4'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Skills</p>
-        <h2 className='py-4'>What I Can Do</h2>
+        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>{messages.Title}</p>
+        <h2 className='py-4'>{messages.Subtitle}</h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16'>
           <SkillCard logo={'HTML logo'} source={htmlLogo} title={'HTML'}/>
           <SkillCard logo={'CSS logo'} source={cssLogo} title={'CSS'}/>
@@ -25,7 +32,7 @@ const Skills = () => {
           <SkillCard logo={'Github logo'} source={githubLogo} title={'Github'}/>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

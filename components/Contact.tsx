@@ -2,28 +2,47 @@
 import Link from 'next/link';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
-const Contact = () => {
+type Props = {
+  messages: {
+    Title: string,
+    Subtitle: string,
+    Card: {
+      Title: string,
+      Description: string,
+      Span: string,
+    },
+    Form: {
+      Name: string,
+      Phone: string,
+      Email: string,
+      Subject: string,
+      Message: string,
+      Button: string,
+    }
+  }
+}
+
+const Contact = ({messages}: Props) => {
   return (
-    <section id='contact' className='md:w-full pt-20 md:pt-32 pb-20 mt-4'>
-    <div className='max-w-[1240px] m-auto px-2 w-full '>
+    <section id='contact' className='md:w-full mt-4'>
+    <div id='contact' className='max-w-[1240px] m-auto pt-20 md:pt-36 px-2 '>
       <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
-        Contact
+        {messages.Title}
       </p>
-      <h2 className='py-5'>Get In Touch</h2>
+      <h2 className='py-5'>{messages.Subtitle}</h2>
       <div className='grid lg:grid-cols-5 gap-8 pt-4'>
         {/* left */}
         <div className='col-span-3 h-[380px] lg:col-span-2 w-full shadow-xl shadow-gray-400 rounded-xl p-4'>
           <div className='lg:p-4'>
             <div>
               <h2 className='py-2'>Julio Bazalar</h2>
-              <p>Front-End Developer</p>
+              <p>{messages.Card.Title}</p>
               <p className='py-4'>
-                I am available for freelance or full-time positions. Contact
-                me and let's talk.
+               {messages.Card.Description}
               </p>
             </div>
             <div>
-              <p className='uppercase pt-8'>Connect With Me</p>
+              <p className='uppercase pt-8'>{messages.Card.Span}</p>
               <div className='flex items-center justify-around py-4'>
                 <Link
                   href='https://www.linkedin.com/in/jbzuloaga/'
@@ -58,7 +77,7 @@ const Contact = () => {
             >
               <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                 <div className='flex flex-col'>
-                  <label className='uppercase text-sm py-2'>Name</label>
+                  <label className='uppercase text-sm py-2'>{messages.Form.Name}</label>
                   <input
                     className='border-2 rounded-lg p-3 flex border-gray-300'
                     type='text'
@@ -68,7 +87,7 @@ const Contact = () => {
                 </div>
                 <div className='flex flex-col'>
                   <label className='uppercase text-sm py-2'>
-                    Phone Number
+                    {messages.Form.Phone}
                   </label>
                   <input
                     className='border-2 rounded-lg p-3 flex border-gray-300'
@@ -79,7 +98,7 @@ const Contact = () => {
               </div>
               <input type="hidden" name="_gotcha" style={{display:'none !important'}} />
               <div className='flex flex-col py-2'>
-                <label className='uppercase text-sm py-2'>Email</label>
+                <label className='uppercase text-sm py-2'>{messages.Form.Email}</label>
                 <input
                   className='border-2 rounded-lg p-3 flex border-gray-300'
                   type='email'
@@ -88,7 +107,7 @@ const Contact = () => {
                 />
               </div>
               <div className='flex flex-col py-2'>
-                <label className='uppercase text-sm py-2'>Subject</label>
+                <label className='uppercase text-sm py-2'>{messages.Form.Subject}</label>
                 <input
                   className='border-2 rounded-lg p-3 flex border-gray-300'
                   type='text'
@@ -97,7 +116,7 @@ const Contact = () => {
                 />
               </div>
               <div className='flex flex-col py-2'>
-                <label className='uppercase text-sm py-2'>Message</label>
+                <label className='uppercase text-sm py-2'>{messages.Form.Message}</label>
                 <textarea
                   className='border-2 rounded-lg p-3 border-gray-300'
                   rows={5}
@@ -106,7 +125,7 @@ const Contact = () => {
               </div>
               <div className='flex justify-center py-4'>
                 <button className='bg-[#2A23EB] max-w-[252px] h-[57px] px-4 text-white rounded-lg'>
-                  Send Message
+                  {messages.Form.Button}
                 </button>
               </div>
             </form>
