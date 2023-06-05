@@ -1,0 +1,56 @@
+{
+  "Lang": {
+    "Navbar": {
+      "Menu": {
+        "About": "About",
+        "Skills": "Skills",
+        "Projects": "Projects"
+      },
+      "Contact": "Work with me"
+    },
+    "Main": {
+      "Intro": "Let’s build something together",
+      "Span": "Hi, I’m Julio",
+      "Body": "a Front-End Web Developer",
+      "Button": "Look my projects"
+    },
+    "About": {
+      "About": "About",
+      "Title": "Who I Am",
+      "Subtitle": "A self-proclaimed Front-End Developer",
+      "Body": "Hello! I'm a Electronic Engineer and a software developer with experience in design, development, and testing of software systems. Able to effectively self-manage during independent projects as well as collaborate as part of a cross-functional team. Experienced in frontend technologies such as HTML, CSS/SCSS, JS/TS, React.js and Angular. In addition, knowledge in backend technologies such as Ruby and Ruby on Rails."
+    },
+    "Skills": {
+      "Title": "Skills",
+      "Subtitle": "What I Can Do"
+    },
+    "Projects": {
+      "Title": "Projects",
+      "Subtitle": "What I've Built",
+      "Descriptions": {
+        "Eatable": "A dashboard web app for different dishes.",
+        "Tweetable": "A twitter-like basic web app.",
+        "Doable": "An enhance to do list web app.",
+        "Expensable": "Web-based expense and income management application."
+      },
+      "Button": "View Project"
+    },
+    "Contact": {
+      "Title": "Contact",
+      "Subtitle": "Get In Touch",
+      "Card": {
+        "Title": "Front-End Developer",
+        "Description": "I am available for freelance or full-time positions. Contact me and let's talk.",
+        "Span": "Connect With Me"
+      },
+      "Form": {
+        "Name": "Name",
+        "Phone": "Phone Number",
+        "Email": "Email",
+        "Subject": "Subject",
+        "Message": "Message",
+        "Button": "Send Message"
+      }
+    }
+  }
+}
