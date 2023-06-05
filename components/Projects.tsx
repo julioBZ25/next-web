@@ -25,7 +25,7 @@ type Props = {
 
 const Projects = ({messages}: Props) => {
   return (
-    <section id='projects' className='w-full lg:h-screen px-4 pt-28 mt-4 min-[850px]:pt-32'>
+    <section id='projects' className='w-full h-full px-4 pt-28 mt-4 min-[850px]:pt-32'>
       <div className='max-w-[1240px] mx-auto relative '>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>{messages.Title}</p>
         <h2 className='py-4'>{messages.Subtitle}</h2>

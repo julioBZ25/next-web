@@ -15,7 +15,7 @@ type Props = {
 
 const Main = ({messages, locale}: Props) => {
   return (
-    <section id='home' className='md:w-full md:h-screen h-screen bg-[#2A23EB]'>
+    <section id='home' className='w-full h-screen bg-[#2A23EB]'>
       <div className='max-w-[1240px] w-full mx-auto flex justify-center items-center h-full'>
         <div className='flex flex-col justify-center items-center gap-5 md:gap-10 max-w-[1034px]'>
           <p className='uppercase text-[0.5rem] leading-6 sm:leading-[27px] sm:text-lg font-light text-center text-white' style={{letterSpacing: '0.5em'}}>
