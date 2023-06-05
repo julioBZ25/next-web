@@ -20,7 +20,10 @@ const ProjectCard = ({backgroundImg, description, projectUrl, color, button, chi
       </div>
       <div className='bg-white rounded-xl px-6 py-[10px] flex flex-col h-[140px] justify-around'>
         <p className='text-[#607B96] text-lg text-left'>{description}</p>
-        <Link href={projectUrl}>
+        <Link href={projectUrl}
+          target='_blank'
+          rel='noreferrer'
+        >
           <button className='rounded-xl bg-[#5651E5] px-3 py-2 text-white cursor-pointer hover:bg-[#3D37DF] active:bg-[#5651E5] active:border-[#0E0C58] active:border'>{button}</button>
         </Link>
       </div>

@@ -17,7 +17,7 @@ type Props = {
 
 const Skills = ({messages}: Props) => {
   return (
-    <section id='skills' className='w-full px-4 pt-20 sm:pt-32 mt-4'>
+    <section id='skills' className='w-full lg:h-screen px-4 pt-28 mt-4 min-[850px]:pt-32'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>{messages.Title}</p>
         <h2 className='py-4'>{messages.Subtitle}</h2>

@@ -24,8 +24,8 @@ type Props = {
 
 const Contact = ({messages}: Props) => {
   return (
-    <section id='contact' className='md:w-full mt-4'>
-    <div id='contact' className='max-w-[1240px] m-auto pt-20 md:pt-36 px-2 '>
+    <section id='contact' className='w-full pt-28 px-4 mt-8 pb-32 min-[850px]:pt-32'>
+    <div className='max-w-[1240px] mx-auto'>
       <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
         {messages.Title}
       </p>
