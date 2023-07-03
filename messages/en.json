@@ -18,7 +18,7 @@
       "About": "About",
       "Title": "Who I Am",
       "Subtitle": "A self-proclaimed Front-End Developer",
-      "Body": "Hello! I'm a Electronic Engineer and a software developer with experience in design, development, and testing of software systems. Able to effectively self-manage during independent projects as well as collaborate as part of a cross-functional team. Experienced in frontend technologies such as HTML, CSS/SCSS, JS/TS, React.js and Angular. In addition, knowledge in backend technologies such as Ruby and Ruby on Rails."
+      "Body": "Hello! I'm an Electronic Engineer and software developer with experience in designing, developing, and testing software systems. I have a strong command of both frontend and backend technologies. On the frontend, I am proficient in HTML, CSS/SCSS, JS/TS, React.js, Angular and Next.js. In backend development, I have expertise in Ruby on Rails, Node.js and Express.js, which enable me to build scalable and efficient server-side applications. I also have experience working with MongoDB, a popular NoSQL database, for data storage and retrieval. Whether working independently or as part of a cross-functional team, I possess effective self-management skills and thrive in collaborative environments. My goal is to leverage my technical skills and passion for software development to contribute to impactful projects. Let's connect and explore how my diverse skill set can benefit your team."
     },
     "Skills": {
       "Title": "Skills",
@@ -31,7 +31,8 @@
         "Eatable": "A dashboard web app for different dishes.",
         "Tweetable": "A twitter-like basic web app.",
         "Doable": "An enhance to do list web app.",
-        "Expensable": "Web-based expense and income management application."
+        "Expensable": "Web-based expense and income management application.",
+        "Nextweb": "Web portfolio with own information, skills and contact form."
       },
       "Button": "View Project"
     },

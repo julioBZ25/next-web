@@ -18,7 +18,7 @@
       "About": "Acerca de",
       "Title": "Quién soy",
       "Subtitle": "Un autoproclamado desarrollador Front-End",
-      "Body": "¡Hola! Soy Ingeniero Electrónico y desarrollador de software con experiencia en diseño, desarrollo y pruebas de sistemas de software. Capaz de autogestionarse de manera efectiva durante proyectos independientes, así como colaborar como parte de un equipo multifuncional. Con experiencia en tecnologías frontend como HTML, CSS/SCSS, JS/TS, React.js y Angular. Además, conocimientos en tecnologías backend como Ruby y Ruby on Rails."
+      "Body": "¡Hola! Soy Ingeniero Electrónico y desarrollador de software con experiencia en diseño, desarrollo y pruebas de sistemas de software. Capaz de gestionar de manera efectiva proyectos independientes y colaborar como parte de un equipo multifuncional. Tengo experiencia en tecnologías de frontend como HTML, CSS/SCSS, JS/TS, React.js y Angular. Además, tengo conocimientos en tecnologías de backend como Node.js, Express.js y MongoDB. Estas habilidades me permiten crear interfaces de usuario atractivas e intuitivas, así como desarrollar aplicaciones escalables y eficientes en el lado del servidor. Ya sea trabajando de forma independiente o en equipo, poseo habilidades de autogestión efectivas y prospero en entornos colaborativos. Mi objetivo es aprovechar mis habilidades técnicas y mi pasión por el desarrollo de software para contribuir a proyectos impactantes. ¡Conéctemos y exploremos cómo mi conjunto de habilidades diverso puede beneficiar a tu equipo!"
     },
     "Skills": {
       "Title": "Aptitudes",
@@ -31,7 +31,8 @@
         "Eatable": "Una aplicación web para diferentes platos de comida.",
         "Tweetable": "Una aplicación web básica similar a Twitter.",
         "Doable": "Una mejorada aplicación web de listas de tareas.",
-        "Expensable": "Aplicación web de gestión de gastos e ingresos."
+        "Expensable": "Aplicación web de gestión de gastos e ingresos.",
+        "Nextweb": "Portafolio web con información personal, habilidades y forma de contacto."
       },
       "Button": "Mira el proyecto"
     },
