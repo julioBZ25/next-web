@@ -32,7 +32,8 @@
         "Tweetable": "A twitter-like basic web app.",
         "Doable": "An enhance to do list web app.",
         "Expensable": "Web-based expense and income management application.",
-        "Nextweb": "Web portfolio with own information, skills and contact form."
+        "Nextweb": "Web portfolio with own information, skills and contact form.",
+        "Apiauth": "An API auth with bcrypy and JWt. Signup, Login and refresh token available."
       },
       "Button": "View Project"
     },

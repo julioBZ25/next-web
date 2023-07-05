@@ -1,23 +1,23 @@
-import {Inter} from 'next/font/google';
-import {NextIntlClientProvider, useLocale} from 'next-intl';
-import { notFound } from 'next/navigation'
-import './globals.css';
+import { Inter } from "next/font/google";
+import { useLocale } from "next-intl";
+import { notFound } from "next/navigation";
+import "./styles.css";
 
 const inter = Inter({
-  subsets: ['latin']
-})
-
+  subsets: ["latin"],
+});
 
 export const metadata = {
-  title: 'Julio | Front End Developer',
-  description: 'next portafolio',
-}
+  title: "Julio | Front End Developer",
+  description: "next portafolio",
+};
 
 export default async function RootLayout({
-
-  children, params
+  children,
+  params,
 }: {
-  children: React.ReactNode, params: { locale: string }
+  children: React.ReactNode;
+  params: { locale: string };
 }) {
   const locale = useLocale();
   // Show a 404 error if the user requests an unknown locale
@@ -26,8 +26,8 @@ export default async function RootLayout({
   }
 
   return (
-    <html lang={locale} >
+    <html lang={locale}>
       <body className={inter.className}>{children}</body>
     </html>
-  )
+  );
 }

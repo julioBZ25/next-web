@@ -4,8 +4,10 @@ import eatableImg from "../public/assets/projects/eatable.png";
 import tweetableImg from "../public/assets/projects/tweetable.png";
 import doableImg from "../public/assets/projects/doable.png";
 import expensableImg from "../public/assets/projects/expensable.png";
+import portafolioImg from "../public/assets/projects/portafolio.png";
+import apiAuthImg from "../public/assets/projects/APIAuth.png";
 import { DiReact, DiJavascript1 } from "react-icons/di";
-import { SiRubyonrails, SiNodedotjs } from "react-icons/si";
+import { SiRubyonrails, SiNodedotjs, SiNextdotjs } from "react-icons/si";
 
 type Props = {
   messages: {
@@ -17,6 +19,7 @@ type Props = {
       Doable: string;
       Expensable: string;
       Nextweb: string;
+      Apiauth: string;
     };
     Button: string;
   };
@@ -70,14 +73,24 @@ const Projects = ({ messages }: Props) => {
           >
             <DiReact size={28} />
           </ProjectCard>
-          {/* <ProjectCard
+          <ProjectCard
             description={messages.Descriptions.Nextweb}
-            color="black"
+            backgroundImg={portafolioImg}
+            color="white"
             projectUrl={"https://github.com/julioBZ25/next-web"}
             button={messages.Button}
           >
+            <SiNextdotjs size={28} />
+          </ProjectCard>
+          <ProjectCard
+            description={messages.Descriptions.Apiauth}
+            backgroundImg={apiAuthImg}
+            color="green"
+            projectUrl={"https://github.com/julioBZ25/node-auth"}
+            button={messages.Button}
+          >
             <SiNodedotjs size={28} />
-          </ProjectCard> */}
+          </ProjectCard>
         </div>
       </div>
     </section>

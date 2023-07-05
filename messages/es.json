@@ -32,7 +32,8 @@
         "Tweetable": "Una aplicación web básica similar a Twitter.",
         "Doable": "Una mejorada aplicación web de listas de tareas.",
         "Expensable": "Aplicación web de gestión de gastos e ingresos.",
-        "Nextweb": "Portafolio web con información personal, habilidades y forma de contacto."
+        "Nextweb": "Portafolio web con información personal, habilidades y forma de contacto.",
+        "Apiauth": "Una API auth con bcrypy y JWt. Signup, Login y refresh token disponibles."
       },
       "Button": "Mira el proyecto"
     },

@@ -54,6 +54,7 @@ const MainApp = () => {
             Doable: t("Projects.Descriptions.Doable"),
             Expensable: t("Projects.Descriptions.Expensable"),
             Nextweb: t("Projects.Descriptions.Nextweb"),
+            Apiauth: t("Projects.Descriptions.Apiauth"),
           },
           Button: t("Projects.Button"),
         }}
