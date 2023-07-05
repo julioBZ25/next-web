@@ -26,7 +26,7 @@ const ProjectCard = ({
           alt="eatable"
           width={371}
           height={140}
-          className="rounded-t-lg object-none"
+          className="rounded-t-lg"
         />
       )}
       <div
@@ -36,7 +36,9 @@ const ProjectCard = ({
         {children}
       </div>
       <div className="bg-white rounded-b-lg px-6 py-[10px] flex flex-col justify-around h-[133px]">
-        <p className="text-[#607B96] text-m text-left">{description}</p>
+        <p className="text-[#607B96] text-sm md:text-m text-left">
+          {description}
+        </p>
         <Link href={projectUrl} target="_blank" rel="noreferrer">
           <button className="rounded-xl bg-[#5651E5] px-3 py-2 text-white cursor-pointer hover:bg-[#3D37DF] active:bg-[#5651E5] active:border-[#0E0C58] active:border">
             {button}
